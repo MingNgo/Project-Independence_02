@@ -154,6 +154,7 @@ a {
 }
 
 .header-info__play {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,6 +162,14 @@ a {
     height: 44px;
     border-radius: 50%;
     background: #83a17d;
+}
+
+.header-info__child-play {
+    position: absolute;
+    left: -7px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
 }
 
 .header-info__text-video {
@@ -234,4 +243,29 @@ a {
     left: 519px;
     top: 356px;
     z-index: 1;
+}
+
+/* Brand */
+.brand {
+    margin-top: 42px;
+}
+
+.brand__bg {
+    display: flex;
+    border-radius: 999px;
+    background: var(--Scondery-color-light-green, #e2eddf);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 76px 0 78px;
+}
+
+
+.brand__logo-text {
+    display: flex;
+    gap: 0 11px;
+    color: #163c35;
+    font-family: Poppins;
+    font-size: 2.6rem;  
+    font-weight: 400;
+    line-height: normal;
 }
